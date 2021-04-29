@@ -23,7 +23,7 @@ deu <- st_read("germany_lau.shp", stringsAsFactors = FALSE) %>%
 summary(deu$dist_motor) #inspect distance from the motorway distribution
 de <- deu # create a copy of our dataset
 
-# Let's find a natural interval with pretty breaks for our distance var
+# Let's find a natural interval with quantile breaks for our distance var
 ni = classIntervals(de$dist_motor, 
 				   n = 8, 
 				   style = 'quantile')$brks
