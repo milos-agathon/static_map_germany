@@ -1,12 +1,5 @@
 # REPLICATION FILE - MILOS POPOVIC 4/26/2021
 # MAKE A COOL CHOROPLETH MAP OF GERMANY IN FEWER THAN 100 LINES OF CODE!
-# install packages if needed
-install.packages(ggplot2, dependencies = T)
-install.packages(dplyr, dependencies = T)
-install.packages(classInt, dependencies = T)
-install.packages(tidyverse, dependencies = T)
-install.packages(sf, dependencies = T)
-
 # load packages
 library(ggplot2, quietly=T) 
 library(dplyr, quietly=T)
